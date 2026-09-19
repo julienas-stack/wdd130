@@ -9,11 +9,6 @@
   --body-font: Arial, sans-serif;
 }
 
-/* Fix weird question marks (UTF-8 text rendering) */
-html {
-  font-family: var(--body-font);
-}
-
 /* Reset */
 * {
   margin: 0;
@@ -26,6 +21,7 @@ html {
    ============================ */
 body {
   background-color: #f7f7f7;
+  font-family: var(--body-font);
   color: var(--primary-color);
   line-height: 1.6;
 }
@@ -144,4 +140,3 @@ footer {
 .socialmedia a {
   text-decoration: none;
 }
-
