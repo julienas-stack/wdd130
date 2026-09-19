@@ -1,0 +1,147 @@
+/* ============================
+   GLOBAL SETTINGS
+   ============================ */
+:root {
+  --primary-color: #0b3c5d;
+  --accent1-color: #328cc1;
+  --accent2-color: #d9b310;
+  --heading-font: Georgia, serif;
+  --body-font: Arial, sans-serif;
+}
+
+/* Fix weird question marks (UTF-8 text rendering) */
+html {
+  font-family: var(--body-font);
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ============================
+   PAGE LAYOUT
+   ============================ */
+body {
+  background-color: #f7f7f7;
+  color: var(--primary-color);
+  line-height: 1.6;
+}
+
+header, main, footer {
+  width: 840px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+}
+
+/* ============================
+   HEADER + LOGO + NAV
+   ============================ */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  width: 120px;
+  height: auto;
+}
+
+nav a {
+  margin-left: 20px;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--accent1-color);
+}
+
+/* ============================
+   HERO SECTION
+   ============================ */
+.hero {
+  position: relative;
+  margin-top: 20px;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  text-align: center;
+  padding: 16px;
+  background-color: rgba(50, 140, 193, 0.8);
+  color: white;
+  font-size: 32px;
+  border-radius: 4px;
+}
+
+.hero article {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background-color: rgba(255, 255, 255, 0.92);
+  padding: 16px;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+.hero article img {
+  float: right;
+  width: 120px;
+  margin-left: 16px;
+  border-radius: 6px;
+}
+
+/* ============================
+   SECTIONS
+   ============================ */
+section {
+  margin-top: 40px;
+}
+
+h2 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+  color: var(--accent1-color);
+}
+
+/* ============================
+   FOOTER
+   ============================ */
+footer {
+  margin-top: 40px;
+  text-align: center;
+  padding-top: 20px;
+  border-top: 2px solid var(--accent1-color);
+}
+
+.socialmedia img {
+  width: 40px;
+  height: auto;
+  margin: 0 10px;
+}
+
+.socialmedia a {
+  text-decoration: none;
+}
+
