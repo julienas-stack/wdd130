@@ -78,7 +78,7 @@ h2 {
     border-radius: 4px;
 }
 
-.mission-box {
+.hero article {
     position: absolute;
     bottom: 20px;
     left: 20px;
@@ -89,7 +89,7 @@ h2 {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
-.mission-box img {
+.hero article img {
     float: right;
     width: 110px;
     margin-left: 12px;
