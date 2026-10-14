@@ -1,1 +1,75 @@
+:root {
+    --brand-main: #4a6fa5;
+    /* your main brand color */
+    --brand-accent: #9cc3d5;
+    /* soft accent */
+    --brand-light: #f0f4f8;
+    /* background */
+    --text-dark: #1f2a44;
+    /* main text */
+    --heading-font: Georgia, serif;
+    --body-font: Arial, sans-serif;
+}
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    background-color: var(--brand-light);
+    color: var(--text-dark);
+    line-height: 1.6;
+}
+
+/* MAIN WIDTH (required) */
+main {
+    width: 840px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* PROFILE IMAGE (required override) */
+main img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    border: 3px solid var(--brand-main);
+}
+
+/* ASIDE (your Germany branding section) */
+aside {
+    width: 840px;
+    margin: 20px auto;
+    padding: 16px;
+    border: 2px solid var(--brand-main);
+    background-color: var(--brand-accent);
+    color: var(--text-dark);
+    border-radius: 8px;
+}
+
+/* Germany image inside aside (required 200px width) */
+aside img {
+    width: 200px;
+    height: auto;
+    border-radius: 6px;
+    margin: 12px 0;
+    border: 2px solid var(--brand-main);
+}
+
+/* Paragraph padding reset (required) */
+p {
+    padding: 0;
+}
+
+/* Footer styling (required) */
+footer {
+    width: 840px;
+    margin: 30px auto 0;
+    padding: 16px 0;
+    text-align: center;
+    border-top: 2px solid var(--brand-main);
+    color: var(--text-dark);
+}
