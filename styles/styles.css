@@ -1,0 +1,40 @@
+/* Limit the width of the main element */
+main {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+/* Override general img styling ONLY for the profile image */
+main img {
+    width: 150px;
+    height: auto;
+}
+
+/* Style the aside element */
+aside {
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Set the image inside aside to 200px width and auto height */
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+/* Set all paragraph padding to 0 */
+p {
+    padding: 0;
+}
+
+/* Footer styling: top margin, top border, centered text */
+footer {
+    margin-top: 30px;
+    border-top: 2px solid #ccc;
+    text-align: center;
+    padding-top: 10px;
+}
