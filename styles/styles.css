@@ -39,3 +39,14 @@ footer {
     text-align: center;
     padding-top: 10px;
 }
+
+nav {
+    background-color: #eee;
+    padding: 10px;
+}
+
+nav a {
+    color: #333;
+    padding: 10px;
+    display: block;
+}
